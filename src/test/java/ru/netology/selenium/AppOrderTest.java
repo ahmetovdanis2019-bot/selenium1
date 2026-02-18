@@ -38,10 +38,10 @@ public class AppOrderTest {
         driver.get("http://localhost:9999");
 
 
-        driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Иван Иванов-Петров");
+        driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Данис Ахметов-Аглетдинов");
 
 
-        driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79991234567");
+        driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79373624667");
 
 
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
